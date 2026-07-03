@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #2ABBCC;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.technology {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0.75rem;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #CCC;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.project-card {
+    border: 1px solid #CCC;
+    padding: 1rem;
+    margin: 15px 0;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 1rem;
+}
+
+.client-name {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.about,
+.projects,
+.contact {
+    padding: 2rem;
+    margin: 15px 0;
+}
+
+footer {
+    background-color: #2ABBCC;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
