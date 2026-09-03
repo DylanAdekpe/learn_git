@@ -11,50 +11,185 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <main>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-us">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section>
+  <body class="container bg-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="py-5 ">
         <div id="hero-section">
+          <div class="row align-items-center">
+            <div class="col">
           <div class="text-eon">
             <h1>Welcom to Our Restaurant</h1>
             <p>Enjoy the best food in town</p>
           </div>
+          </div>
+          <div class="col">
           <div class="ill">
-            <img src="" alt="Logo Restaurant" />
+            <img 
+            src="https://imgs.search.brave.com/1zKD4BtVXyzbpq07LlbS9xDBuzcoxPeai54aOs45vh4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L3ByZW1pdW0tdmVj/dG9yL3ZpbnRhZ2Ut/cmVzdGF1cmFudC1s/b2dvLXJlc3RhdXJh/bnQtYmFkZ2UtdmVj/dG9yLWVtYmxlbS10/ZW1wbGF0ZV8yMjc3/NDQtNDc0LmpwZz9z/ZW10PWFpc190ZXN0/X2Imdz03NDAmcT04/MA" 
+            alt="Logo Restaurant" />
+          </div>
+          </div>
+          </div>
+      </section>
+      <section id="menu" class="py-5 bg-light">
+        <div class="cards">
+          <div class="row gap-3">
+            <div class="col">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://imgs.search.brave.com/c1YS_80UsKTZ50X57UybnTv3H47_3h1syakUQ0IWkgg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIx/MTI5MzI5L3Bob3Rv/L3BsYXRlLW9mLXRh/c3R5LWxhc2FnbmEt/b24td29vZGVuLXRh/YmxlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1NdzQxeXRX/ZUp5U212X2VVcGlo/LVNVX01HdmVOYlhB/UmxSR0ZaTjJpam0w/PQ"
+                alt="Lasagna photo"
+                class="img-fluid card-img-top"
+               />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h2>Lasagna</h2>
+                <div class="card-description">
+                  <p class="card-text">
+                    Ingredients: pasta, cheese, meat, vegetables
+                  </p>
+                  <p class="card-price">Price: $10</p>
+                </div>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+          <div class="card">
+            <div class="card-image">
+              <img 
+                src="https://imgs.search.brave.com/r22tlMdHI0rYgRhVQKSipvJsOXxCcOu3wTIbat4SBYw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjIv/OTk0LzA0MC9zbWFs/bC90aGUtdG9wLXZp/ZXctcGl6emEtb24t/dGhlLWJsYWNrLXRh/YmxlLXdpdGgtaW5n/cmVkaWVudHMtYW5k/LWFpLWdlbmVyYXRl/ZC1mcmVlLXBob3Rv/LmpwZw" 
+                alt="Pizza photo" 
+                class="card-img-top"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h2>Pizza</h2>
+                <div class="card-description">
+                  <p class="card-text">
+                    Ingredients: dough, cheese, sauce, toppings
+                  </p>
+                  <p class="card-price">Price: $12</p>
+                </div>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+          <div class="card">
+            <div class="card-image">
+              <img 
+                src="https://imgs.search.brave.com/HA0AJ9Y5FQVGcChGYstrLSNexN-J4gMk9PBmURtLrQE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTIv/MDU1LzU2MS9zbWFs/bC9ob21lbWFkZS1i/dXJnZXItd2l0aC1i/ZWVmLWNoZWVzZS1h/bmQtb25pb24tbWFy/bWFsYWRlLW9uLWEt/d29vZGVuLWJvYXJk/LWZyaWVzLWluLWEt/bWV0YWwtYmFza2V0/LWZhc3QtZm9vZC1j/b25jZXB0LWFtZXJp/Y2FuLWZvb2QtcGhv/dG8uanBn" 
+                alt="Burger photo" 
+                class="card-img-top"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h2>Burger</h2>
+                <div class="card-description">
+                  <p class="card-text">
+                    Ingredients: bread, meat, cheese, vegetables
+                  </p>
+                  <p class="card-price">Price: $8</p>
+                </div>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="row gap-3">
+          <div class="col">
+          <div class="card mt-3 col-4">
+            <div class="card-image">
+              <img src="https://imgs.search.brave.com/qwJXdJyGGiamwq2KdoiIYb5koFKH7bNTy9ng8PWRFdo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3RpL3Bob3Rv/cy1ncmF0dWl0ZS90/Mi8yNzkxMzExLXNh/bGFkZS1kZS12aWFu/ZGUtZGUtdGhvbi1l/dC1kLW9ldWYtZ3Jh/dHVpdC1waG90by5q/cGc" alt="Salad" class="card-img-top object-cover">
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h2>Salad</h2>
+                <div class="card-description">
+                  <p class="card-text">
+                    Ingredients: lettuce, tomato, cucumber, dressing
+                  </p>
+                  <p class="card-price">Price: $6</p>
+                </div>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
-      <section id="menu">
-        <div class="cards">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+      <section id="about-us" class="row gap-3 py-5">
+        <div class="col">
+        <div class="image"></div>
+        </div>
+        <div class="col">
+        <div class="content">
+          <h2>About Us</h2>
+          <p>Learn more about our restaurant and our story.</p>
+        </div>
         </div>
       </section>
-      <section id="about-us"></section>
-      <section id="contact"></section>
-      <footer></footer>
+      <section id="contact">
+        <div class="form">
+          <form>
+            <h2>Contact Us</h2>
+            <div class="row">
+              <div class="col">
+              <div class="form-group mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name" name="name" />
+              </div>
+              </div>
+              <div class="col">
+              <div class="form-group mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control" type="email" id="email" name="email" />
+              </div>
+            </div>
+            </div>
+            <div class="form-group mb-3">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" name="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+      <footer class="mt-5">
+        <div class="container text-center">
+          <p>&copy; 2025 Restaurant. All rights reserved.</p>
+        </div>
+      </footer>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <style>
+    </style>
   </body>
 </html>
